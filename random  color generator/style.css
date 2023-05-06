@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+
+.container{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+h2{
+    text-align: center;
+}
+.colors{
+    display: flex;
+}
+.btn1{
+    border: none;
+    background-color: #fff2d5;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-regular.fa-clipboard{
+    padding: 5px;
+}
